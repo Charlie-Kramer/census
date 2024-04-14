@@ -319,10 +319,10 @@ class ACSClient(Client):
 
 class ACS5Client(ACSClient):
 
-    default_year = 2021
+    default_year = 2022
     dataset = 'acs5'
 
-    years = (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009)
+    years = (2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009)
 
     @supported_years()
     def state_county_subdivision(self, fields, state_fips,
